@@ -29,8 +29,10 @@ Drop N/A and unpaired entries
 ### Sequences are put together and the alignment is performed with HMM
 
 ### Calculate seq_id from CDR3
+From the TCR (alpha and beta) sequence aligned, the position of the CDR3 (initial and final) is taken and the seq_id is calculated for the combination of each of them
 
 ### Calculate seq_id from peptides after Pairwised alignment
+Each sequence is aligned vs all the rest and the seq_id is calculated for each pair
 
 ### Calculate seq_id from MHC after alignment with HMM
 Get the sequences, for some of them the name must be processed in order to be found (4 digits MHC nomenclature)
